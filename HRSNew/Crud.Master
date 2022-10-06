@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Crud.master.cs" Inherits="HRSNew.Crud" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+body {margin:0px;}
+.navbar {
+    overflow: hidden;
+    background-color: Highlight;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+     /*min-width: 160px;*/
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+        .auto-style1 {
+            width: 45%;
+            float: left;
+        }
+
+    </style>
+ </head>
+       
+<body>
+    <form id="form1" runat="server">
+      
+           <div style="align-items: flex-end;" class="auto-style1"><img src="Images/hrslogo.png" alt="Avatar" class="avatar" style="width: 13%; height: 70px;" /></div>
+   <div style="text-align:center; width:50%; float:right;"><h2>Human Rsource Software</h2></div> 
+        <div class="navbar" style="width:100%;">
+  <a href="#home">Home</a>
+  <a href="#news" style="float:right;">Profile</a>
+  <div class="dropdown" style="float:right;">
+    <button class="dropbtn" style=" min-width: 160px;">Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Employee</a>
+      <a href="#">Category</a>
+      <a href="#">Skills</a>
+      <a href="#">Project</a>
+    </div>
+  </div> 
+</div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            
+    </form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSNew", "HRSNew\HRSNew.csproj", "{655E43F7-AD4B-4EE8-A6BF-0A80694B84FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{26F87D15-E062-46F2-9B3D-029964F5F6EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{DC20BD70-B302-4A44-A4E6-DA571A435BD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF91A746-03B4-4107-B236-5B62937A19D9}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Manisha\Hrs\HrsWebUI\images\Add.jpg = D:\Manisha\Hrs\HrsWebUI\images\Add.jpg
+		D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy - Copy (2).jpg = D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy - Copy (2).jpg
+		D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy - Copy (3).jpg = D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy - Copy (3).jpg
+		D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy - Copy - Copy (2).jpg = D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy - Copy - Copy (2).jpg
+		D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy.jpg = D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy - Copy.jpg
+		D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy.jpg = D:\Manisha\Hrs\HrsWebUI\images\aqua blue - Copy.jpg
+		D:\Manisha\Hrs\HrsWebUI\images\delete.jpg = D:\Manisha\Hrs\HrsWebUI\images\delete.jpg
+		D:\Manisha\Hrs\HrsWebUI\images\login-button-md.png = D:\Manisha\Hrs\HrsWebUI\images\login-button-md.png
+		D:\Manisha\Hrs\HrsWebUI\images\login-button-png-hi.png = D:\Manisha\Hrs\HrsWebUI\images\login-button-png-hi.png
+		D:\Manisha\Hrs\HrsWebUI\images\ok123.png = D:\Manisha\Hrs\HrsWebUI\images\ok123.png
+		D:\Manisha\Hrs\HrsWebUI\images\search.jpg = D:\Manisha\Hrs\HrsWebUI\images\search.jpg
+		D:\Manisha\Hrs\HrsWebUI\images\updt.png = D:\Manisha\Hrs\HrsWebUI\images\updt.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{77D84E16-9D43-4084-B570-3546DD20B1F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{AD54E1A7-A3C0-42B5-92F7-AECC2F4FA0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRS.BL", "SkillBC\HRS.BL.csproj", "{87D03144-D886-4E60-A5E5-5078AEB52178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRS.Controller", "CategoryController\HRS.Controller.csproj", "{BC99F363-761D-4D6B-AF1C-0280B5A6CD1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019} = {C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRS.Common", "Common\HRS.Common.csproj", "{797977CD-3CAD-4DC5-AAD6-46F247030CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRS.Entity", "Entity\HRS.Entity.csproj", "{1CBD7ECE-7229-400C-B37B-09AB54BAA592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRS.DAL", "DAL\HRS.DAL.csproj", "{55E3EBCA-8FCB-48F4-A70A-E6CB82493031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{78A06A76-D502-4287-BDA7-B97DBF04C65A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{655E43F7-AD4B-4EE8-A6BF-0A80694B84FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655E43F7-AD4B-4EE8-A6BF-0A80694B84FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655E43F7-AD4B-4EE8-A6BF-0A80694B84FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655E43F7-AD4B-4EE8-A6BF-0A80694B84FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D03144-D886-4E60-A5E5-5078AEB52178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D03144-D886-4E60-A5E5-5078AEB52178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D03144-D886-4E60-A5E5-5078AEB52178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D03144-D886-4E60-A5E5-5078AEB52178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC99F363-761D-4D6B-AF1C-0280B5A6CD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC99F363-761D-4D6B-AF1C-0280B5A6CD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC99F363-761D-4D6B-AF1C-0280B5A6CD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC99F363-761D-4D6B-AF1C-0280B5A6CD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797977CD-3CAD-4DC5-AAD6-46F247030CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797977CD-3CAD-4DC5-AAD6-46F247030CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797977CD-3CAD-4DC5-AAD6-46F247030CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797977CD-3CAD-4DC5-AAD6-46F247030CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBD7ECE-7229-400C-B37B-09AB54BAA592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBD7ECE-7229-400C-B37B-09AB54BAA592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBD7ECE-7229-400C-B37B-09AB54BAA592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBD7ECE-7229-400C-B37B-09AB54BAA592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E3EBCA-8FCB-48F4-A70A-E6CB82493031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E3EBCA-8FCB-48F4-A70A-E6CB82493031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E3EBCA-8FCB-48F4-A70A-E6CB82493031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E3EBCA-8FCB-48F4-A70A-E6CB82493031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A06A76-D502-4287-BDA7-B97DBF04C65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A06A76-D502-4287-BDA7-B97DBF04C65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A06A76-D502-4287-BDA7-B97DBF04C65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A06A76-D502-4287-BDA7-B97DBF04C65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{655E43F7-AD4B-4EE8-A6BF-0A80694B84FB} = {26F87D15-E062-46F2-9B3D-029964F5F6EB}
+		{87D03144-D886-4E60-A5E5-5078AEB52178} = {DC20BD70-B302-4A44-A4E6-DA571A435BD0}
+		{BC99F363-761D-4D6B-AF1C-0280B5A6CD1D} = {AD54E1A7-A3C0-42B5-92F7-AECC2F4FA0C8}
+		{797977CD-3CAD-4DC5-AAD6-46F247030CE3} = {77D84E16-9D43-4084-B570-3546DD20B1F9}
+		{1CBD7ECE-7229-400C-B37B-09AB54BAA592} = {77D84E16-9D43-4084-B570-3546DD20B1F9}
+		{55E3EBCA-8FCB-48F4-A70A-E6CB82493031} = {77D84E16-9D43-4084-B570-3546DD20B1F9}
+		{78A06A76-D502-4287-BDA7-B97DBF04C65A} = {26F87D15-E062-46F2-9B3D-029964F5F6EB}
+		{C49C7B2A-2B6F-4F9B-94A1-F809E5F0D019} = {DC20BD70-B302-4A44-A4E6-DA571A435BD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81232F0B-C239-46F8-B4C9-455EFE836828}
+	EndGlobalSection
+EndGlobal
