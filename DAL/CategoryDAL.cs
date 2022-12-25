@@ -11,6 +11,7 @@ namespace DAL
 {
   public class CategoryDAL
     {
+        //method to add category
         /// <summary>
         /// This method is used to add new category for category db 
         /// which returns a integer value
